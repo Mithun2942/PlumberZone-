@@ -1,0 +1,193 @@
+
+.home-slider-area {
+    max-width: 1920px;
+    width: 100%;
+    position: relative;
+    margin: auto;
+}
+
+
+.sleekslider {
+    height: 680px;
+}
+
+.sleekslider .slide {
+    height: 680px;
+}
+
+
+.item-one .image-one {
+	position: absolute;
+	left: 20px;
+	top: 20px;
+}
+
+.item-one .image-two {
+	position: absolute;
+	left: 50%;
+	margin-left: -150px;
+	top: 40px;
+}
+
+.item-one .text{
+	position: absolute;
+	right: 0;
+	top: 35%;
+	text-align: right;
+	text-transform: uppercase;
+}
+
+.item-one .text h2 {
+	font-size: 38px;
+	font-weight: 700;
+	color: #2f2f2f;
+}
+
+.item-one .text h1 {
+	font-size: 92px;
+	color: #ffc527;
+	font-weight: 700;
+}
+
+
+/* item two*/
+.carousel-inner .item.item2 {
+	height: 680px;
+	background-color: #eff5fb;
+}
+
+.item-two > .text {
+	position: absolute;
+	width: 47%;
+	left: 0;
+	top: 20%;
+	text-transform: uppercase;
+	font-family: 'Poppins', sans-serif;
+	padding-right: 30px;
+}
+
+.item-two > .text .itext1 {
+	font-size: 78px;
+	font-weight: 400;
+	color: #2f2f2f;
+}
+
+.item-two > .text .itext2 {
+	font-size: 78px;
+	font-weight: 400;
+	color: #ffc527;
+	line-height: 75px;
+}
+
+.item-two > .text .itext3 {
+	font-size: 30px;
+	font-weight: 400;
+	color: #2f2f2f;
+	line-height: 36px;
+	font-weight: 700;
+	margin-top: 7px;
+}
+
+.item-three .custom-btn,
+.item-two .custom-btn {
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 24px;
+	padding: 14px 40px;
+	display: inline-block;
+	background: #ffc527;
+	color: #2f2f2f;
+	margin-top: 50px;
+	border-radius: 2px;
+	-webkit-transition: all 0.15s ease-in-out;
+}
+
+.item-three .custom-btn:hover,
+.item-two .custom-btn:hover {
+	background-color: #363636;
+	color: #fff;
+}
+
+.item-two .iimage2 {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+
+/*  item three  */
+.carousel-inner .item.item3 {
+	height: 680px;
+	background-color: #7d7978;
+}
+
+.item-three .text {
+	position: absolute;
+	width: 50%;
+	left: 0;
+	top: 20%;
+	text-align: left;
+	text-transform: uppercase;
+	z-index: 11;
+}
+
+.item-three .text .itext1 {
+	font-size: 30px;
+	line-height: 42px;
+	font-weight: 700;
+	color: #fff;
+	display: block;
+}
+
+.item-three .text .itext2 {
+	font-size: 65px;
+	font-weight: 700;
+	color: #ffc527;
+	display: block;
+	line-height: 80px;
+}
+
+.item-three .text .itext3 {
+	font-size: 25px;
+	font-weight: 700;
+	color: #fff;
+	background: #403f3f;
+	padding: 6px 10px;
+	display: inline-block;
+}
+
+.item-three ul {
+	margin-top: 30px;
+}
+
+.item-three ul li {
+	font-size: 22px;
+	line-height: 36px;
+	text-transform: uppercase;
+	color: #fff;
+	list-style: none;
+}
+
+.item-three ul li i {
+	margin-right: 10px;
+	color: #ffc527;
+}
+
+.item-three .iimage3 {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.item-three .custom-btn {
+	margin-top: 30px;
+}
+
+nav.nav-split a {
+	z-index: 9;
+}
+
+
+
+
+
